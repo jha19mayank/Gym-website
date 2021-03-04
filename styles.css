@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('bkg.jpg');
+    color: red;
+}
+
+.left{
+    position: absolute;
+    top:20px;
+    left: 30px;
+    display: inline-block;
+    /* border: 5px solid rgb(27, 119, 8); */
+}
+.left img{
+    width: 80px;
+}
+.left div{
+    color: chocolate;
+    text-align: center;
+}
+
+.mid{
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    /* border: 5px solid green; */
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: rgb(88, 245, 206);
+    text-decoration: none;
+    padding: 30px 10px;
+}
+.navbar li a.active, .navbar li a:hover{
+    text-decoration: underline;
+    color: chocolate;
+}
+
+.right{
+    position: absolute;
+    top:20px;
+    right: 30px;
+    display: inline-block;
+    /* border: 5px solid rgb(6, 139, 6); */
+}
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0 10px;
+    background-color: cornflowerblue;
+    padding: 4px 12px;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(19, 194, 3);
+}
