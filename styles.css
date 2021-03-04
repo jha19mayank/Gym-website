@@ -53,11 +53,19 @@ body{
     margin: 0 10px;
     background-color: cornflowerblue;
     padding: 4px 12px;
-    border: 2px solid red;
+    border: 2px solid green;
     border-radius: 10px;
     font-size: 15px;
     cursor: pointer;
 }
 .btn:hover{
     background-color: rgb(19, 194, 3);
+}
+
+.container{
+    border: 2px solid royalblue;
+    border-radius: 20px;
+    margin: 100px 80px;
+    padding: 70px;
+    width: 33%;
 }
